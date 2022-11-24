@@ -46,6 +46,7 @@
 	<bean class="part03.EmpContorller" >
 		<property name="dao" ref="dao"/>
 	</bean>
+	<bean class="part04.SearchDaumController" />
 
 
 	<bean
