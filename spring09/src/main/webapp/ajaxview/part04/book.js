@@ -2,19 +2,7 @@ $(document).ready(function(){
 	$('#btn').click(process);
 });
 
-/*
-function process(){
-	$.ajax({
-		type:'GET',
-		dataType:'json',
-		url: 'searchOpen.do?query='+$('#search').val(),
-		success:viewMessage,
-		error:function(xhr, textStatus, error){
-			alert(xhr.status);
-			}
-	});
-}
-*/
+
 function process(){
 	alert('test');
 	$.ajax({

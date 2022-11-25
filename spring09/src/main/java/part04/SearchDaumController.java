@@ -33,7 +33,7 @@ public class SearchDaumController {
 		HttpURLConnection con = (HttpURLConnection) new URL(url).openConnection();
 		con.setRequestProperty("Authorization", "KakaoAK 9773624f2adcc1df4fcaaa99e96d7b92");
 		con.setRequestMethod("GET");
-		
+		                  
 		BufferedReader reader = new BufferedReader(new InputStreamReader(con.getInputStream()));
 		String input = null;
 		String total ="";
@@ -42,6 +42,6 @@ public class SearchDaumController {
 		}
 		System.out.println(total);
 		return total;
-		
-	}
+		 
+	}                     
 }
